@@ -4,15 +4,15 @@ import random
 from datetime import timedelta, datetime
 from typing import List
 
-from common import StuBruSingleton
-from common.logger import StuBruLogger
-from core import SongInfo
-from core.subset_sum_solver import SubSumSetSolver
+from song_selector_algorithm.common import StuBruSingleton
+from song_selector_algorithm.common.logger import StuBruLogger
+from song_selector_algorithm.core import SongInfo
+from song_selector_algorithm.core.subset_sum_solver import SubSumSetSolver
 
 
 class SongManager(metaclass=StuBruSingleton):
     QueueSize = 15
-    TimeToHourThreshold = timedelta(minutes=50)
+    TimeToHourThreshold = timedelta(minutes=15)
     Logger = StuBruLogger()
 
     def __init__(self, songs: List[SongInfo]):
@@ -61,8 +61,8 @@ class SongManager(metaclass=StuBruSingleton):
         self.Logger.info(f"Refilling queue. Duration current song: {duration_current_song}")
         if len(self.queue) >= self.QueueSize:
             msg = (
-                f"Current queue size ({len(self.queue)}) if bigger than configured queue size ({self.QueueSize}). "
-                f"No new songs are added for now."
+                f"Current queue size ({len(self.queue)}) is bigger than or equal to configured queue size "
+                f"({self.QueueSize}). No new songs are added for now."
             )
             self.Logger.info(msg)
             return None
@@ -74,7 +74,7 @@ class SongManager(metaclass=StuBruSingleton):
         if (time_to_hour := next_hour - end_of_songs) <= self.TimeToHourThreshold:
             self._add_batch_of_songs(time_to_hour)
         else:
-            self.queue += self._get_new_song()
+            self.queue.append(self._get_new_song())
 
     def add_songs(self, new_songs: List[SongInfo]):
         """Add a batch of new songs to the list of pending songs."""

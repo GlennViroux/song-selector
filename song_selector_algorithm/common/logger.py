@@ -1,5 +1,5 @@
 """logger"""
-from common import StuBruSingleton
+from song_selector_algorithm.common import StuBruSingleton
 import logging
 import sys
 

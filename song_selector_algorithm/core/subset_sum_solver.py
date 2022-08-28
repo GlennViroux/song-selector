@@ -5,9 +5,9 @@ import time
 from pathlib import Path
 from typing import List
 
-from common.decorators import log_exec_time
-from common.logger import StuBruLogger
-from core import SongInfo
+from song_selector_algorithm.common.decorators import log_exec_time
+from song_selector_algorithm.common.logger import StuBruLogger
+from song_selector_algorithm.core import SongInfo
 
 
 class SubSumSetSolver:

@@ -4,7 +4,7 @@ import functools
 import time
 from typing import Optional
 
-from common.logger import StuBruLogger
+from song_selector_algorithm.common.logger import StuBruLogger
 
 
 def log_exec_time(prefix: Optional[str]):

@@ -2,7 +2,7 @@ from datetime import timedelta
 
 from pydantic import BaseModel
 
-from common.snippets import pretty_duration
+from song_selector_algorithm.common.snippets import pretty_duration
 
 
 class SongInfo(BaseModel):
