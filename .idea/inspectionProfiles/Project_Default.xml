@@ -1,0 +1,139 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="46" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="110">
+            <item index="0" class="java.lang.String" itemvalue="Flask-Cors" />
+            <item index="1" class="java.lang.String" itemvalue="fountainpy" />
+            <item index="2" class="java.lang.String" itemvalue="python-anvil" />
+            <item index="3" class="java.lang.String" itemvalue="Flask-HTTPAuth" />
+            <item index="4" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="5" class="java.lang.String" itemvalue="Flask-Login" />
+            <item index="6" class="java.lang.String" itemvalue="types-protobuf" />
+            <item index="7" class="java.lang.String" itemvalue="protobuf" />
+            <item index="8" class="java.lang.String" itemvalue="firebase-admin" />
+            <item index="9" class="java.lang.String" itemvalue="googleapis-common-protos" />
+            <item index="10" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="11" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="12" class="java.lang.String" itemvalue="httplib2" />
+            <item index="13" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="14" class="java.lang.String" itemvalue="requests" />
+            <item index="15" class="java.lang.String" itemvalue="grpc-google-iam-v1" />
+            <item index="16" class="java.lang.String" itemvalue="google-resumable-media" />
+            <item index="17" class="java.lang.String" itemvalue="google-auth-httplib2" />
+            <item index="18" class="java.lang.String" itemvalue="urllib3" />
+            <item index="19" class="java.lang.String" itemvalue="libcst" />
+            <item index="20" class="java.lang.String" itemvalue="google-api-core" />
+            <item index="21" class="java.lang.String" itemvalue="google-crc32c" />
+            <item index="22" class="java.lang.String" itemvalue="google-cloud-secret-manager" />
+            <item index="23" class="java.lang.String" itemvalue="rauth" />
+            <item index="24" class="java.lang.String" itemvalue="regex" />
+            <item index="25" class="java.lang.String" itemvalue="google-api-python-client" />
+            <item index="26" class="java.lang.String" itemvalue="grpcio" />
+            <item index="27" class="java.lang.String" itemvalue="pytz" />
+            <item index="28" class="java.lang.String" itemvalue="google-cloud-firestore" />
+            <item index="29" class="java.lang.String" itemvalue="google-cloud-core" />
+            <item index="30" class="java.lang.String" itemvalue="msgpack" />
+            <item index="31" class="java.lang.String" itemvalue="google-auth" />
+            <item index="32" class="java.lang.String" itemvalue="idna" />
+            <item index="33" class="java.lang.String" itemvalue="google-cloud-tasks" />
+            <item index="34" class="java.lang.String" itemvalue="mypy" />
+            <item index="35" class="java.lang.String" itemvalue="pre-commit" />
+            <item index="36" class="java.lang.String" itemvalue="astroid" />
+            <item index="37" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="38" class="java.lang.String" itemvalue="pycparser" />
+            <item index="39" class="java.lang.String" itemvalue="gitdb" />
+            <item index="40" class="java.lang.String" itemvalue="DateTime" />
+            <item index="41" class="java.lang.String" itemvalue="pyasn1-modules" />
+            <item index="42" class="java.lang.String" itemvalue="appdirs" />
+            <item index="43" class="java.lang.String" itemvalue="filelock" />
+            <item index="44" class="java.lang.String" itemvalue="mccabe" />
+            <item index="45" class="java.lang.String" itemvalue="certifi" />
+            <item index="46" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="47" class="java.lang.String" itemvalue="types-Flask" />
+            <item index="48" class="java.lang.String" itemvalue="types-Werkzeug" />
+            <item index="49" class="java.lang.String" itemvalue="GitPython" />
+            <item index="50" class="java.lang.String" itemvalue="nodeenv" />
+            <item index="51" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="52" class="java.lang.String" itemvalue="wrapt" />
+            <item index="53" class="java.lang.String" itemvalue="zope.interface" />
+            <item index="54" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="55" class="java.lang.String" itemvalue="click" />
+            <item index="56" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="57" class="java.lang.String" itemvalue="virtualenv" />
+            <item index="58" class="java.lang.String" itemvalue="distlib" />
+            <item index="59" class="java.lang.String" itemvalue="CacheControl" />
+            <item index="60" class="java.lang.String" itemvalue="cfgv" />
+            <item index="61" class="java.lang.String" itemvalue="pathspec" />
+            <item index="62" class="java.lang.String" itemvalue="pbr" />
+            <item index="63" class="java.lang.String" itemvalue="rsa" />
+            <item index="64" class="java.lang.String" itemvalue="smmap" />
+            <item index="65" class="java.lang.String" itemvalue="cffi" />
+            <item index="66" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="67" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="68" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="69" class="java.lang.String" itemvalue="types-click" />
+            <item index="70" class="java.lang.String" itemvalue="types-MarkupSafe" />
+            <item index="71" class="java.lang.String" itemvalue="tomli" />
+            <item index="72" class="java.lang.String" itemvalue="itsdangerous" />
+            <item index="73" class="java.lang.String" itemvalue="Flask" />
+            <item index="74" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="75" class="java.lang.String" itemvalue="six" />
+            <item index="76" class="java.lang.String" itemvalue="identify" />
+            <item index="77" class="java.lang.String" itemvalue="stevedore" />
+            <item index="78" class="java.lang.String" itemvalue="bandit" />
+            <item index="79" class="java.lang.String" itemvalue="black" />
+            <item index="80" class="java.lang.String" itemvalue="packaging" />
+            <item index="81" class="java.lang.String" itemvalue="toml" />
+            <item index="82" class="java.lang.String" itemvalue="chardet" />
+            <item index="83" class="java.lang.String" itemvalue="lazy-object-proxy" />
+            <item index="84" class="java.lang.String" itemvalue="typing-inspect" />
+            <item index="85" class="java.lang.String" itemvalue="colorama" />
+            <item index="86" class="java.lang.String" itemvalue="pylint" />
+            <item index="87" class="java.lang.String" itemvalue="google-cloud-pubsub" />
+            <item index="88" class="java.lang.String" itemvalue="proto-plus" />
+            <item index="89" class="java.lang.String" itemvalue="cachetools" />
+            <item index="90" class="java.lang.String" itemvalue="isort" />
+            <item index="91" class="java.lang.String" itemvalue="types-Jinja2" />
+            <item index="92" class="java.lang.String" itemvalue="functions-framework" />
+            <item index="93" class="java.lang.String" itemvalue="pyflakes" />
+            <item index="94" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="95" class="java.lang.String" itemvalue="pycodestyle" />
+            <item index="96" class="java.lang.String" itemvalue="flake8" />
+            <item index="97" class="java.lang.String" itemvalue="opencensus" />
+            <item index="98" class="java.lang.String" itemvalue="typed-ast" />
+            <item index="99" class="java.lang.String" itemvalue="starlette" />
+            <item index="100" class="java.lang.String" itemvalue="graphql-core" />
+            <item index="101" class="java.lang.String" itemvalue="ariadne" />
+            <item index="102" class="java.lang.String" itemvalue="pygraphviz" />
+            <item index="103" class="java.lang.String" itemvalue="graphviz" />
+            <item index="104" class="java.lang.String" itemvalue="google-cloud-monitoring" />
+            <item index="105" class="java.lang.String" itemvalue="transitions" />
+            <item index="106" class="java.lang.String" itemvalue="opencensus-ext-stackdriver" />
+            <item index="107" class="java.lang.String" itemvalue="google-cloud-logging" />
+            <item index="108" class="java.lang.String" itemvalue="zipp" />
+            <item index="109" class="java.lang.String" itemvalue="importlib-metadata" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.dict" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

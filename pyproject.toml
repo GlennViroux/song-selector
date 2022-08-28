@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "song-selector-algorithm"
+version = "0.1.0"
+description = "A song selector algorithm designed for radio stations with continuous music and fixed breaks at the start of each hour."
+authors = ["Glenn Viroux <glenn.viroux@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
